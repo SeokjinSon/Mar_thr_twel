@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mar_thr_twel</string>
+    <string name="main">Name</string>
+    <string name="sub1">hi</string>
+    <string name="sub2">Hello</string>
+    <string name="btn1">OK</string>
+    <string name="btn2">Cancel</string>
+    <string name="join">Join</string>
+    <string name="btnId">ID</string>
+    <string name="btnPw">PW</string>
+    <string name="btnJoin">가입</string>
+    <string name="btnCan">취소</string>
+    <string name="okBtn">OK</string>
+    <string name="button1">OK</string>
+    <string name="button2">Cancel</string>
+    <string name="colChn">색상 변경 놀이</string>
+    <string name="colChnBtn1">Chn1</string>
+    <string name="colChnBtn2">Chn2</string>
+    <string name="aboveBtn">ABOVE</string>
+    <string name="rightBtn">RIGHT</string>
+    <string name="leftBtn">LEFT</string>
+    <string name="belowBtn">BELOW</string>
+    <string name="name">손석진</string>
+    <string name="date">21.03.04</string>
+    <string name="exp">안녕하세요, 잘 지내셨나요?</string>
+    <string name="oneBtn">ONE</string>
+    <string name="twoBtn">TWO</string>
+    <string name="thrBtn">THREE</string>
+    <string name="fourBtn">FOUR</string>
+    <string name="fiveBtn">FIVE</string>
+</resources>

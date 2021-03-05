@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    tools:context=".FrameActivity">
+
+    <Button
+        android:id="@+id/oneBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="clickFunc"
+        android:text="@string/oneBtn"
+        app:layout_constraintBaseline_toBaselineOf="@+id/twoBtn"
+        app:layout_constraintStart_toStartOf="@+id/thrBtn" />
+
+    <Button
+        android:id="@+id/twoBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="1dp"
+        android:onClick="clickFunc"
+        android:text="@string/twoBtn"
+        app:layout_constraintStart_toStartOf="@+id/thrBtn"
+        app:layout_constraintTop_toTopOf="@+id/thrBtn" />
+
+    <Button
+        android:id="@+id/thrBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="clickFunc"
+        android:text="@string/thrBtn"
+        app:layout_constraintBaseline_toBaselineOf="@+id/fourBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/fourBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="clickFunc"
+        android:text="@string/fourBtn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/thrBtn"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/fiveBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="clickFunc"
+        android:text="@string/fiveBtn"
+        app:layout_constraintBaseline_toBaselineOf="@+id/thrBtn"
+        app:layout_constraintStart_toStartOf="@+id/thrBtn" />
+</FrameLayout>
